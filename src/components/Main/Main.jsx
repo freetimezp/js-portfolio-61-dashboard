@@ -1,9 +1,14 @@
-
+import MainTop from "./MainTop";
 
 const Main = () => {
     return (
-        <div>
-            Main
+        <div className="flex flex-col md:flex-row bg-indigo-100 dark:bg-slate-950">
+            <section className="w-auto md:w-[70%] h-full">
+                <MainTop />
+            </section>
+            <section className="w-full md:w-[30%] bg-indigo-200 dark:bg-slite-900/20">
+                2
+            </section>
         </div>
     );
 }

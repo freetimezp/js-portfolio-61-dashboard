@@ -3,7 +3,7 @@ import Chart from '../Chart/Chart';
 const MainMiddle = () => {
     return (
         <>
-            <div className='grid md:grid-cols-4 gap-4 m-4 w-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-4 m-4 w-auto'>
                 <div className='col-span-4 md:col-span-1 h-28 bg-white dark:bg-slate-900/50
                     rounded-md'>
                     <div className='flex flex-col justify-between p-4 h-full shadow-sm duration-300

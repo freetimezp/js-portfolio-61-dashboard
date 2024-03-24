@@ -31,7 +31,7 @@ const MainTop = () => {
                     m-4">
                 <div className="flex flex-col justify-between w-full md:w-auto h-48
                         bg-white dark:bg-slate-900/50 p-4 rounded-md hover:scale-105
-                        duration-300">
+                        duration-300 shadow-sm hover:shadow-xl">
                     <div className="flex w-full items-center justify-between">
                         <div className="text-4xl text-indigo-950 dark:text-slate-400">
                             <IoWalletSharp />
@@ -55,7 +55,7 @@ const MainTop = () => {
                 </div>
                 <div className="flex flex-col justify-between w-full md:w-auto h-48
                         bg-white dark:bg-slate-900/50 p-4 rounded-md hover:scale-105
-                        duration-300">
+                        duration-300 shadow-sm hover:shadow-xl">
                     <div className="flex w-full items-center justify-between">
                         <div className="text-4xl text-indigo-950 dark:text-slate-400">
                             <IoPieChartOutline />
@@ -79,7 +79,7 @@ const MainTop = () => {
                 </div>
                 <div className="flex flex-col justify-between w-full md:w-auto h-48
                         bg-white dark:bg-slate-900/50 p-4 rounded-md hover:scale-105
-                        duration-300">
+                        duration-300 shadow-sm hover:shadow-xl">
                     <div className="flex w-full items-center justify-between">
                         <div className="text-4xl text-indigo-950 dark:text-slate-400">
                             <FaPeopleCarryBox />
@@ -103,7 +103,7 @@ const MainTop = () => {
                 </div>
                 <div className="flex flex-col justify-between w-full md:w-auto h-48
                         bg-white dark:bg-slate-900/50 p-4 rounded-md hover:scale-105
-                        duration-300">
+                        duration-300 shadow-sm hover:shadow-xl">
                     <div className="flex w-full items-center justify-between">
                         <div className="text-4xl text-indigo-950 dark:text-slate-400">
                             <FaRegIdCard />
